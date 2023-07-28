@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power</title>
+</head>
+
+<body>
+    <script>
+        function add(a, b) {
+            let c = a + b;
+            return c;
+        }
+        let s = 0;
+        function power(a, b) {
+            h = a;
+            s = a;
+            c = b;
+            for (let j = 1; j < b; j++) {
+
+                for (let i = 1; i < Math.abs(a); i++) {
+                    s = add(s, h);
+                }
+                h = s;
+            }
+
+
+            return s;
+        }
+        let P = power(-4, 6);
+        e = c % 2;
+        if (e == 0) {
+
+            alert(Math.abs(P));
+        }
+        else {
+            alert(P)
+        }
+
+    </script>
+</body>
+
+</html>
