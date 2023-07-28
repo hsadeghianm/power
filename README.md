@@ -1,2 +1,2 @@
 # power
-power mit sum
+power mit sum 
